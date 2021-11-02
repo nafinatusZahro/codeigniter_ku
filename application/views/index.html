@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,16 +39,16 @@
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-dark" type="submit">Search</button>
+              <button class="btn btn-outline-light" type="submit">Search</button>
             </form>
           </div>
         </div>
       </nav>
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Tambah
       </button>
       
-      <table class="table">
+      <table class="table table-dark table-striped">
         <thead>
           <tr>
             <th scope="col">#</th>
@@ -63,8 +63,8 @@
             <td>Suci</td>
             <td>Sudimoro</td>
             <td>
-            <button class="btn btn-primary" type="submit">Ubah</button>
-            <button class="btn btn-info" type="submit">Hapus</button>
+            <button class="btn btn-light" type="submit">Ubah</button>
+            <button class="btn btn-outline-light" type="submit">Hapus</button>
             </td>
           </tr>
           <tr>
@@ -72,8 +72,8 @@
             <td>Dewi</td>
             <td>Watesari</td>
             <td>
-                <button class="btn btn-primary" type="submit">Ubah</button>
-                <button class="btn btn-info" type="submit">Hapus</button>
+                <button class="btn btn-light" type="submit">Ubah</button>
+                <button class="btn btn-outline-light" type="submit">Hapus</button>
             </td>
           </tr>
           <tr>
@@ -81,8 +81,8 @@
             <td>Wahyu</td>
             <td>Kerajan</td>
             <td>
-                <button class="btn btn-primary" type="submit">Ubah</button>
-                <button class="btn btn-info" type="submit">Hapus</button>
+                <button class="btn btn-light" type="submit">Ubah</button>
+                <button class="btn btn-outline-light" type="submit">Hapus</button>
             </td>
           </tr>
         </tbody>
@@ -94,15 +94,15 @@
               <h5 class="modal-title" id="exampleModalLabel">Orang</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
+            <div class="alert alert-primary" role="alert">
                 <input type="text" placeholder="Nama" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 <br>
                 <input type="text" placeholder="Alamat" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 <br>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+            <div class="alert alert-primary" role="alert">
+              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-secondary">Save changes</button>
             </div>
           </div>
         </div>
